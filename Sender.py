@@ -20,5 +20,5 @@ while True:
         txMsg = "S"
         display.show(Image.STICKFIGURE, loop=False, delay=10)
 
-radio.send(txMsg)
-sleep(10)
+    radio.send(txMsg)
+    sleep(10)
