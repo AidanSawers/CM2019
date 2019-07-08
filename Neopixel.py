@@ -1,5 +1,6 @@
 from microbit import *
 import neopixel
+from random import randint
 
 np = neopixel.NeoPixel(pin13, 12)
 
