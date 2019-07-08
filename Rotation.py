@@ -12,4 +12,4 @@ while True:
             if not (i == j):
                 np[j] = (0, 0, 60)
             np.show()
-            sleep(1500)
+        sleep(500)
